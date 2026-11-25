@@ -35,9 +35,6 @@ public class Main {
 		// Afficher les atomes (l'ordre d'affichage d'un Set est quelconque)
 		System.out.println("Atomes de f : " + f.atomes());
 
-		// Tester remplace() et evalue()
-		// Note : remplace() ne modifie pas f, il renvoie une NOUVELLE expression.
-		// On la stocke dans f_test pour garder f intacte pour la suite.
 		Expression f_test = f.remplace("x1", true)
 							.remplace("y1", true)
 							.remplace("x2", false)
